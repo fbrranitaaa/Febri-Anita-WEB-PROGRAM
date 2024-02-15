@@ -1,0 +1,35 @@
+h1
+{
+color: white;
+font-family: Comic Sans Ms;
+background-color: #ffb6c1;
+Padding: 50px;
+} 
+h2
+{
+    Font-family: Comic sans Ms;
+    color: #F08080;
+    background-color:white;
+
+}
+body
+{background-color: #F0768B;}
+
+h5{
+font-family:'Times New Roman';
+background-color: #ffb6c1;
+}
+
+ 
+.marquee
+{
+font-size: 500pt;
+}
+
+.function toggleMenu() {
+    const navList = document.querySelector('.nav-list');
+    navList.classList.toggle('active');
+}
+
+.const menuToggle = document.querySelector('.menu-toggle');
+menuToggle.style.display = 'block';
